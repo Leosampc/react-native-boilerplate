@@ -1,13 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
 import { ThemeProvider } from './providers';
+import AppNavigator from './navigation';
 
 function App() {
   return (
     <ThemeProvider>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+      <AppNavigator />
     </ThemeProvider>
   );
 }
