@@ -15,31 +15,11 @@ You also need to install the dependencies required by React Native.
 Go to the [React Native environment setup](https://reactnative.dev/docs/environment-setup), then select `React Native CLI Quickstart` tab.  
 Follow instructions for your given `development OS` and `target OS`.
 
-## Cloning and Install dependencies
+## Quick Start
 
-To use this boilerplate, fist clone the project:
+To create a new project using the boilerplate simply run:
 
-`git clone https://gitlab.com/leosampc/react-native-boilerplate.git`
-
-After, go into the folder:
-
-`cd react-native-boilerplate`
-
-And install de dependencies:
-
-`yarn` || `npm i`
-
-For **iOS**, runs:
-
-`yarn ios:pods` || `npm run ios:pods`
-
-For **android**, I recommend to run a `gradlew clean` to prevent possible cached errors, by:
-
-`yarn android:clean` || `npm run android:clean`
-
-#### - Observation:
-
-> If you want (I recommend), you can rename the project folder and use the [react-native-rename](https://github.com/junedomingo/react-native-rename#readme) to rename the project.
+`npx react-native init MyApp --template https://gitlab.com/leosampc/react-native-boilerplate.git`
 
 ## Running the project
 
