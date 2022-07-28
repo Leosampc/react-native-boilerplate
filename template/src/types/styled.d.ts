@@ -3,14 +3,14 @@ import 'styled-components';
 declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
-      blackColor: string;
-      grayColor: string;
-      primaryColor: string;
-      backgroundColor: string;
-      whiteColor: string;
-      errorColor: string;
-      successColor: string;
-      saleColor: string;
+      black: string;
+      gray: string;
+      primary: string;
+      background: string;
+      white: string;
+      error: string;
+      success: string;
+      sale: string;
     };
   }
 }
